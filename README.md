@@ -82,9 +82,10 @@ i.e C,C++,Java,Python
 [![WhatsApp Image 2020-10-13 at 7 04 51 PM](https://user-images.githubusercontent.com/72509723/95880997-b7cebe80-0d95-11eb-8934-1d4577546a52.jpeg)](http://issb.sfit.ac.in/)
 <div align="center">
   <a href="https://www.instagram.com/ieeesfit/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-  <a href="https://www.facebook.com/csi.sfit" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+  <a href="https://www.facebook.com/ieeesfitstudentbranch/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
   <a href="mailto: ieeesfitsb@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
    <a href="https://discord.gg/WRgX3WV" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
+  
  
 </div>
 
