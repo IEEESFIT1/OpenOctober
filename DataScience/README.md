@@ -2,9 +2,9 @@
 
 ## *What is Data Science?*
 
-***Data science***,  in simple words, provides meaningful information based on large amonuts of complex data or ***big data***.
+***Data science***,  in simple words, provides meaningful information based on large amounts of complex data or ***big data***.
 Data science or Data Driven Science, combines different fields of work in statistics and computation to interpret data for decision-making purposes.
-## Resouces n Inspiration
+## Resources and Inspiration
 - [Kaggle](https://www.kaggle.com/)
 - [100 Numpy Exercises](https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises.md)
 - [Kaggle - Pandas](https://www.kaggle.com/learn/pandas)
