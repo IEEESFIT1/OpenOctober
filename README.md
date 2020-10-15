@@ -1,10 +1,11 @@
 # **ISSB Open October '20** 
+> The Fall of Code 🍁
 
 [![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/0)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/0)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/1)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/1)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/2)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/2)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/3)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/3)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/4)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/4)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/5)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/5)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/6)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/6)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/7)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/7)
 
 ![Untitled design](https://user-images.githubusercontent.com/72509723/95880427-20696b80-0d95-11eb-951d-3ce291e2f226.jpg )
 
-## ***What is OPENOCTOBER?*** 🤔
+## ***What is OpenOctober?*** 
 
 OpenOctober is an opensource based competition organized by **IEEE SFIT**. It is an event dedicated to coding and celebrating the developer in you. <br>
 
@@ -36,7 +37,7 @@ d. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/SoftwareDev">So
 e. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI/Miscellaneous">Miscellaneous</a><br>
   
 the 5th folder is a miscellaneous folder, each folder consisting of 4 more sub folders <b>for each major programming language</b>
-i.e C,C++,Java,Python
+i.e C, C++, Java, Python and R
 
 
 ## Contributing guidelines and general rules ⚖
@@ -46,7 +47,7 @@ i.e C,C++,Java,Python
 
 4. ***Tampering or any unethical behaviour*** to the files or other participants will result in ***immediate disqualification*** <br>
 
-5. Links to the different repositories are mentioned, and each repository has also put up the code of conduct on their repository. ***Each participant is requested to follow the code of conduct and plagiarism checks would be conducted***.<br>
+5. Links to the different repositories are mentioned, and each repository has also put up the code of conduct on their repository. ***Each participant is requested to follow the code of conduct*** 
 
 6. However, the participants ***will be allowed to create and edit code*** on the repos either of self or of another participant.<br>
 
@@ -55,7 +56,7 @@ i.e C,C++,Java,Python
   b) ***Quality of code***<br>
   
 8. A ***Discord channel*** is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
-
+> We hope contributions are made through fair and non-plagiarised means
 ##  STEPS TO CONTRIBUTE 😏
 1. **Fork** this Repository.
 2. **Clone** the Repository: `git clone "url you copied"`
