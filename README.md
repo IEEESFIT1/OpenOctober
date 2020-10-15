@@ -83,6 +83,7 @@ i.e C, C++, Java, Python and R
  - Create multiple issue request for one issue
 
 ## ***Lucky Strike, Happy Contributing !*** 🎃
+
 [![WhatsApp Image 2020-10-13 at 7 04 51 PM](https://user-images.githubusercontent.com/72509723/95880997-b7cebe80-0d95-11eb-8934-1d4577546a52.jpeg)](http://issb.sfit.ac.in/)
 <div align="center">
   <a href="https://www.instagram.com/ieeesfit/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>

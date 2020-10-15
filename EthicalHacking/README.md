@@ -37,4 +37,4 @@
 * Unethical behaviour of any kind will lead to disqualification.
 * You are requested to maintain a helpful environment.
 
-## HAPPY CODING!🙂
+## Happy Contributing!🙂

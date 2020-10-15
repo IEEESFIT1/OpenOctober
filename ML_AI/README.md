@@ -42,4 +42,4 @@
   - Unethical Behaviour of any kind will lead to disqualification immediately.
   - You're requested to maintain a helpful environment at all times 
 
-## HAPPY CODING!🙂
+## Happy Contributing!🙂
