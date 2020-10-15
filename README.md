@@ -6,32 +6,35 @@
 
 ## ***What is OPENOCTOBER?*** 🤔
 
-Openoctober is an opensource based competition organized by **IEEE SFIT**. It is an event dedicated to coding and celebrating the developer in you. <br>In this event, you can contribute to a live project and make a pull request to the repository you desire to work on. The participant with the maximum number of valid contributions wins.
+OpenOctober is an opensource based competition organized by **IEEE SFIT**. It is an event dedicated to coding and celebrating the developer in you. <br>In this event, you can contribute to a live project and make a pull request to the repository you desire to work on. The participant with the maximum number of valid contributions wins.
 This competition will go on for a week but don't be disheartened, you can keep contributing after the time is over but it will not be considered for evaluation.
-### If you have the skills to code and the spirit to win, then you are at the right place.⚡
-  It is a week long coding event on github which implies <b> open source principles at its base.</b></p><br>
-  ## The event will be held from ***17th to 25th October 2020***</b><br>
+
+
+> We believe - and we hope you do too 
+>>  that learning how to code, how to think,  and how to contribute to open source can empower the next generation of coders and creators. 
+>>> If you are first time contributor,  we want you to know that everyone started from somewhere! So start here!⚡
+  
+## It is a week long coding event on github which implies <b> open source principles at its base.</b></p><br>
+> The event will be held from ***17th to 25th October 2020***</b><br>
 
 ## Overview 😯
 
-Openoctober is open to everyone whether you're new to development , a student or a long time contributer.
-This contest consists of ***4 repositories for 4 technologies*** for budding coders as well as professionals 
+OpenOctober is open to everyone whether you're new to development , a student or a long time contributer.
+This contest consists of ***5 folders for 4 technologies and a Miscellaneous folder*** for budding coders as well as professionals 
 the different repositories are<br>
 1) **Datascience**<br> 
 2) **EthicalHacking**<br>
 3) **ML\AL**<br>
 4) **SoftwareDev**<br>
 5) **Miscellaneous repository**<br>
-the 5th folder is a miscellaneous folder,each folder consisting of 4 more sub folders <b>for each major programming language</b>
+the 5th folder is a miscellaneous folder, each folder consisting of 4 more sub folders <b>for each major programming language</b>
 i.e C,C++,Java,Python
 
 
-## Contributing guidlines and general rules 🤫
-1. The participant participating in the following events ***would be allowed to take part in multiple events at one time*** that has been assigned.<br> 
+## Contributing guidelines and general rules ⚖
+1. The participant will be allowed to work on the issue ***ONLY after it has been assigned*** to them.<br>
 
-2. The partcipant will be alowed to work on the issue ***after it has been assigned*** to them.<br>
-
-3. The participant will be only allowed to work in a particular time period thats been assigned, ***after the time period ends*** contributions can be taken in but the ***contributions wont be counted for the final evaluation***.<br>
+2. The contributions will be counted only for the time period of the event, ***after the time period ends*** contributions can be taken in but ***wont be counted for the final evaluation***.<br>
 
 4. ***Tampering or any unethical behaviour*** to the files or other participants will result in ***immediate disqualification*** <br>
 
@@ -39,10 +42,9 @@ i.e C,C++,Java,Python
 
 6. However, the participants ***will be allowed to create and edit code*** on the repos either of self or of another participant.<br>
 
-7. The crierion to judge is:-<br>
+7. The criterion to judge is:-<br>
   a) ***Amount of MR,PR and issues raised***<br>
   b) ***Quality of code***<br>
-  c) ***The number of push request***<br>
   
 8. A ***Discord channel*** is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
 
@@ -66,14 +68,14 @@ i.e C,C++,Java,Python
 
 ## CODE OF CONDUCT
 #### Do's✅
-- Work on the issue only after it is assigned to you
+- Work on the issue ONLY after it is assigned to you
 - Follow the repository's contribution guidelines
 - Almost every repo looking for help has a Readme.md file in it, read it first!
 - Run the application , find bug/issues , create an issue on github repo and make any changes , you find suitable on it.
 - Push the repo and then create a pull request on the repo.
 - Each PR must be associated with only ONE issue
 
-#### Dont's ❌
+#### Don'ts ❌
  - Open pull requests with minor text edits on other people's repositories
  - If you're looking for a faster way to open four PR's and win, there's a better way!
  - Create multiple issue request for one issue
