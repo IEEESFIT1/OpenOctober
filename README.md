@@ -28,11 +28,13 @@ This competition will go on for a week but don't be disheartened, you can keep c
 OpenOctober is open to everyone whether you're new to development , a student or a long time contributer.
 This contest consists of ***5 folders for 4 technologies and a Miscellaneous folder*** for budding coders as well as professionals 
 the different repositories are<br>
-1) **Datascience**<br> 
-2) **EthicalHacking**<br>
-3) **ML\AL**<br>
-4) **SoftwareDev**<br>
-5) **Miscellaneous repository**<br>
+
+a. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/DataScience">Data Science</a><br>
+b. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/EthicalHacking">Ethical Hacking</a><br>
+c. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI">ML/AI</a><br>
+d. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/SoftwareDev">Software Development</a><br>
+e. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI/Miscellaneous">Miscellaneous</a><br>
+  
 the 5th folder is a miscellaneous folder, each folder consisting of 4 more sub folders <b>for each major programming language</b>
 i.e C,C++,Java,Python
 
@@ -54,13 +56,6 @@ i.e C,C++,Java,Python
   
 8. A ***Discord channel*** is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
 
-9. The ***Links to the different repositories*** are as follows:<br>
-  a. <a href="https://github.com/ieee-sfit/Readmefiles/tree/main/DataScience">Data Science</a><br>
-  b. <a href="https://github.com/ieee-sfit/Readmefiles/tree/main/EthicalHacking">Ethical Hacking</a><br>
-  c. <a href="https://github.com/ieee-sfit/Readmefiles/tree/main/ML%5CAI">ML/AI</a><br>
-  d. <a href="https://github.com/ieee-sfit/Readmefiles/tree/main/SoftwareDev">Software Development</a><br>
-  e. <a href="https://github.com/ieee-sfit/Readmefiles/tree/main/Miscellaneous">Miscellaneos</a><br>
-  
 ##  STEPS TO CONTRIBUTE 😏
 1. **Fork** this Repository.
 2. **Clone** the Repository: `git clone "url you copied"`
