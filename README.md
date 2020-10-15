@@ -6,13 +6,19 @@
 
 ## ***What is OPENOCTOBER?*** 🤔
 
-OpenOctober is an opensource based competition organized by **IEEE SFIT**. It is an event dedicated to coding and celebrating the developer in you. <br>In this event, you can contribute to a live project and make a pull request to the repository you desire to work on. The participant with the maximum number of valid contributions wins.
+OpenOctober is an opensource based competition organized by **IEEE SFIT**. It is an event dedicated to coding and celebrating the developer in you. <br>
+
+In this event, you can contribute to a live project and make a pull request to the repository you desire to work on. 
+
+###The participant with the maximum number of valid contributions wins.
+
 This competition will go on for a week but don't be disheartened, you can keep contributing after the time is over but it will not be considered for evaluation.
 
 
 > We believe - and we hope you do too 
 >>  that learning how to code, how to think,  and how to contribute to open source can empower the next generation of coders and creators. 
->>> If you are first time contributor,  we want you to know that everyone started from somewhere! So start here!⚡
+>>> If you are first time contributor,  we want you to know that everyone started from somewhere! 
+>>>> So start here!⚡
   
 ## It is a week long coding event on github which implies <b> open source principles at its base.</b></p><br>
 > The event will be held from ***17th to 25th October 2020***</b><br>
