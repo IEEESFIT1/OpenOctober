@@ -21,7 +21,7 @@ This competition will go on for a week but don't be disheartened, you can keep c
 >>>> So start here!⚡
   
 ## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
-> The event will be held from ***17th to 25th October 2020***</b><br>
+> The event will be held from ***18th to 31st October 2020***</b><br>
 
 ## Overview 😯
 
