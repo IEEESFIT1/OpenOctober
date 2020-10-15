@@ -10,7 +10,7 @@ OpenOctober is an opensource based competition organized by **IEEE SFIT**. It is
 
 In this event, you can contribute to a live project and make a pull request to the repository you desire to work on. 
 
-###The participant with the maximum number of valid contributions wins.
+### The participant with the maximum number of valid contributions wins.
 
 This competition will go on for a week but don't be disheartened, you can keep contributing after the time is over but it will not be considered for evaluation.
 
