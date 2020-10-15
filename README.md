@@ -20,7 +20,7 @@ This competition will go on for a week but don't be disheartened, you can keep c
 >>> If you are first time contributor,  we want you to know that everyone started from somewhere! 
 >>>> So start here!⚡
   
-## It is a week long coding event on github which implies <b> open source principles at its base.</b></p><br>
+## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
 > The event will be held from ***17th to 25th October 2020***</b><br>
 
 ## Overview 😯
