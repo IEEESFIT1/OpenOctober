@@ -4,7 +4,9 @@
 *Machine learning is the study of computer algorithms that allow computer programs to automatically improve through experience*
 
 ## RESOURCES & INSPIRATIONS
-
+- [HackerRank - AI](https://www.hackerrank.com/domains/ai)
+- [HackerEarth - ML](https://www.hackerearth.com/practice/machine-learning/prerequisites-of-machine-learning/basic-probability-models-and-rules/tutorial/)
+- [Kaggle](https://www.kaggle.com/)
 ## STEPS TO CONTRIBUTE
 
 - Fork this repository

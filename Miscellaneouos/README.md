@@ -2,7 +2,7 @@
 *In case your work doesn't resonate with the aforementioned Technologies (ML/AI, Ethical Hacking, Data structures and Algorithms, Data Science), this folder has got you covered!*
 
 ## RESOURCES & INSPIRATIONS
-
+- [GeeksForGeeks Project Hub](https://www.geeksforgeeks.org/computer-science-projects/)
 ## STEPS TO CONTRIBUTE
 
 - Fork this repository

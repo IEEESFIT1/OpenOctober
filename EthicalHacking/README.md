@@ -6,6 +6,9 @@
 
 <p>Ethical Hacking is the controversial act of locating weaknesses and vulnerabilities of computer and information systems by duplicating the intent and actions of malicious hackers.<br>Ethical hackers are employed by organizations to penetrate networks and computer systems with the purpose of finding and fixing security vulnerabilities.</p>
 
+## Resources n Inspiration
+- [Encryption Algorithms](https://www.toptenreviews.com/encryption-algorithms)
+- [Hashing Algorithms](https://blog.jscrambler.com/hashing-algorithms/)
 ## Steps to contribute
 * Find the technology you want to contribute to and Fork it `https://github.com/<YourUserName>/Demo-Pull-Request-Repo`
 * Clone it by using the command:`git clone https://github.com/<YourUserName>/Demo-Pull-Request-Repo`
