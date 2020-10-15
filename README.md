@@ -86,7 +86,7 @@ i.e C,C++,Java,Python
   <a href="https://www.instagram.com/ieeesfit/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
   <a href="https://www.facebook.com/ieeesfitstudentbranch/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
   <a href="mailto: ieeesfitsb@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-   <a href="https://discord.gg/WRgX3WV" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
+   <a href="https://discord.gg/" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
   
  
 </div>
