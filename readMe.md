@@ -1,3 +1,5 @@
+# OpenOctober
+[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/0)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/0)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/1)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/1)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/2)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/2)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/3)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/3)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/4)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/4)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/5)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/5)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/6)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/6)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/7)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/7)
 # **ISSB Open October '20** 🎆
 ![Untitled design](https://user-images.githubusercontent.com/72509723/95880427-20696b80-0d95-11eb-951d-3ce291e2f226.jpg )
 
@@ -62,7 +64,7 @@ i.e C,C++,Java,Python
 9. Our team will review and merge your changes into the master branch of this project. You will be notified via E-mail once the changes have been merged.
 
 ## CODE OF CONDUCT
-#### Do's ✅
+#### Do's✅
 - Work on the issue only after it is assigned to you
 - Follow the repository's contribution guidelines
 - Almost every repo looking for help has a Readme.md file in it, read it first!
