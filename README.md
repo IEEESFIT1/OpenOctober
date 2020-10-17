@@ -24,7 +24,7 @@ This competition will go on for a week but don't be disheartened, you can keep c
 ## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
 > The event will be held from ***18th to 31st October 2020***</b><br>
 
-Register [Here](https://forms.gle/kKVD9xzwBmuXee4V9) and Join our [Discord Channel](https://discord.gg/swKb2w).
+#### Register [Here](https://forms.gle/kKVD9xzwBmuXee4V9) and Join our [Discord Channel](https://discord.gg/swKb2w).
 
 ## Overview 😯
 
@@ -57,7 +57,7 @@ i.e C, C++, Java, Python and R
   a) ***Amount of MR,PR and issues raised***<br>
   b) ***Quality of code***<br>
   
-8. A ***Discord channel*** is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
+8. A [Discord channel](https://discord.gg/swKb2w) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
 > We hope contributions are made through fair and non-plagiarised means
 ##  STEPS TO CONTRIBUTE 😏
 1. **Fork** this Repository.
