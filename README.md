@@ -86,7 +86,7 @@ i.e C, C++, Java, Python and R
  - Create multiple issue request for one issue
 
 ### Still not sure what the event is?
-- Check out our [FAQ section]() and join us on our [Discord channel](https://discord.gg/hRTMS6z).
+- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/hRTMS6z).
 
 
 ## ***Lucky Strike, Happy Contributing !*** 🎃
