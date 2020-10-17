@@ -24,6 +24,8 @@ This competition will go on for a week but don't be disheartened, you can keep c
 ## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
 > The event will be held from ***18th to 31st October 2020***</b><br>
 
+Register [Here](https://forms.gle/kKVD9xzwBmuXee4V9) and Join our [Discord Channel](https://discord.gg/swKb2w).
+
 ## Overview 😯
 
 OpenOctober is open to everyone whether you're new to development , a student or a long time contributer.
@@ -81,6 +83,10 @@ i.e C, C++, Java, Python and R
  - Open pull requests with minor text edits on other people's repositories
  - If you're looking for a faster way to open four PR's and win, there's a better way!
  - Create multiple issue request for one issue
+
+### Still not sure what the event is?
+- Check out our [FAQ section]() and join us on our [Discord channel](https://discord.gg/swKb2w).
+
 
 ## ***Lucky Strike, Happy Contributing !*** 🎃
 
