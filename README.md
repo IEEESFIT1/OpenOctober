@@ -92,7 +92,7 @@ i.e C, C++, Java, Python and R
 - [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) : Admin
 - [Clare Rebello](https://www.linkedin.com/in/clarerebello-2001)
 - [Orvil Dsilva](https://www.linkedin.com/in/orvil-d-silva-469a331b4)
-- [Ashish Yadav]()
+- [Ashish Yadav](http://www.linkedin.com/in/ashish-yadav-37a034182)
 
 
 ## ***Lucky Strike, Happy Contributing !*** 🎃
