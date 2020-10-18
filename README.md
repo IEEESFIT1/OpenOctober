@@ -88,6 +88,12 @@ i.e C, C++, Java, Python and R
 ### Still not sure what the event is?
 - Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/hRTMS6z).
 
+### Maintainers
+- [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) : Admin
+- [Clare Rebello](https://www.linkedin.com/in/clarerebello-2001)
+- [Orvil Dsilva](https://www.linkedin.com/in/orvil-d-silva-469a331b4)
+- [Ashish Yadav]()
+
 
 ## ***Lucky Strike, Happy Contributing !*** 🎃
 
