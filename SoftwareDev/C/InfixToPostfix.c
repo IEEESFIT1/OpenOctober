@@ -83,7 +83,7 @@ int getPriority(char op)
 {
     if(op=='/' || op == '*' || op=='%')
         return 1;
-    else if(op=='+' || op=='�')
+    else if(op=='+' || op=='-')
         return 0;
 }
 void push(char st[], char val)
