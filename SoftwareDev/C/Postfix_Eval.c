@@ -115,14 +115,9 @@ int main()
 		{
 		case 1:
 			printf("Enter Postfix expression : ");
-			getchar();
-			/*here getchar() is optional, it is required to 
-			  perfectly execute the program
-			  most of the compilers show 
-			  different behavior for gets()
-			*/
+			//getchar(); // It is compiler specific
 			
-			gets(postfix);
+			fgets(postfix,45,stdin);
 			
 			printf("\nPostfix Expression : ");
 			printf("%s\n", postfix);
