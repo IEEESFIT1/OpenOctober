@@ -58,7 +58,7 @@ i.e C, C++, Java, Python and R
   a) ***Amount of MR,PR and issues raised***<br>
   b) ***Quality of code***<br>
   
-8. A [Discord channel](https://discord.gg/hRTMS6z) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
+8. A [Discord channel](https://discord.gg/HfpvkzE) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
 > We hope contributions are made through fair and non-plagiarised means
 ##  STEPS TO CONTRIBUTE 😏
 1. **Fork** this Repository.
@@ -86,7 +86,7 @@ i.e C, C++, Java, Python and R
  - Create multiple issue request for one issue
 
 ### Still not sure what the event is?
-- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/hRTMS6z).
+- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/HfpvkzE).
 
 ### Maintainers
 - [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) : Admin
@@ -102,7 +102,7 @@ i.e C, C++, Java, Python and R
   <a href="https://www.instagram.com/ieeesfit/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
   <a href="https://www.facebook.com/ieeesfitstudentbranch/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
   <a href="mailto: ieeesfitsb@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-   <a href="https://discord.gg/hRTMS6z" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
+   <a href="https://discord.gg/HfpvkzE" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
   
  
 </div>
