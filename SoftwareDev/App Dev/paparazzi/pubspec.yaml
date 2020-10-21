@@ -2,7 +2,7 @@
 name: paparazzi
 description: Paparazzi, A photo Editor App!
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
