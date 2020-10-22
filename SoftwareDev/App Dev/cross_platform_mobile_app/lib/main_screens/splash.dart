@@ -1,7 +1,4 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-
 import '../home.dart';
 
 class Splash extends StatefulWidget {
@@ -30,23 +27,34 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffFADBED),
       body: Stack(
         children: [
-          Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [Color(0xffDBA6FE), Color(0xff827EFD)],
-              ),
-            ),
-          ),
+          //top cloud
           Align(
-            alignment: Alignment.centerRight,
+            alignment: Alignment.topRight,
             child: Image.asset(
               'assets/images/top_cloud.png',
-              width: 500,
-              height: 300,
+              width: 270,
+              height: 270,
+            ),
+          ),
+          //center gif
+          Align(
+            alignment: Alignment.center,
+            child: Image.asset(
+              'assets/images/splash_gif.gif',
+              width: 350,
+              height: 350,
+            ),
+          ),
+          //bottom cloud
+          Align(
+            alignment: Alignment.bottomLeft,
+            child: Image.asset(
+              'assets/images/bottom_cloud.png',
+              width: 299,
+              height: 299,
             ),
           )
         ],
