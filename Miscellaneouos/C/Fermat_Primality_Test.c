@@ -27,7 +27,7 @@ int Fermat(ll p, int iterations) {
         return 0;
         
     for (i = 0; i < iterations; i++) {
-        ll a = rand() % (p - 1) + 1;
+        ll a = s_rand() % (p - 1) + 1;
         if (modulo(a, p - 1, p) != 1) 
             return 0;
     }
