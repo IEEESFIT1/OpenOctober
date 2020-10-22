@@ -41,13 +41,13 @@ class _SplashState extends State<Splash> {
               ),
             ),
           ),
-          Row(
-            children: [
-              new Text("left"),
-              new Expanded(
-                child: Text("right"),
-              ),
-            ],
+          Align(
+            alignment: Alignment.centerRight,
+            child: Image.asset(
+              'assets/images/top_cloud.png',
+              width: 500,
+              height: 300,
+            ),
           )
         ],
       ),
