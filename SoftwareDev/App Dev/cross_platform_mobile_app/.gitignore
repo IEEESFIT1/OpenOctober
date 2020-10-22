@@ -3,6 +3,7 @@
 *.log
 *.pyc
 *.swp
+#../ back folder
 ../DS_Store
 .DS_Store
 .atom/
