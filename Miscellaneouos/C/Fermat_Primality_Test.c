@@ -1,3 +1,6 @@
+// Code by Kartikey Sharma
+// Contributed during OpenOctober 2020
+
 #include <stdio.h>
 #include <stdlib.h>
  
