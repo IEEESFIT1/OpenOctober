@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pandas as pd
 import argparse
-
+global b,g,r,xpos,ypos, clicked
 #Creating argument parser to take image path from command line
 ap = argparse.ArgumentParser()
 ap.add_argument('-i', '--image', required=True, help="Image Path")
@@ -33,7 +33,7 @@ def getColorName(R,G,B):
 #function to get x,y coordinates of mouse double click
 def draw_function(event, x,y,flags,param):
     if event == cv2.EVENT_LBUTTONDBLCLK:
-        global b,g,r,xpos,ypos, clicked
+        
         clicked = True
         xpos = x
         ypos = y
@@ -70,4 +70,3 @@ while(True):
         break
 
 cv2.destroyAllWindows()
-
