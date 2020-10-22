@@ -22,7 +22,7 @@
 > PS. you're currently at the right place!
 
 ### ***IF at any time of the event I don't understand something or I am Stuck, whom do I contact or how do I get a help?*** 
-- We will provide you with the link to our <a href= "https://discord.gg/hRTMS6z">***Discord Server***</a>, you can contact us there or you can even hit us up on <a href="https://www.instagram.com/ieeesfit/">***Instagram- @ieeesfit***</a>.
+- We will provide you with the link to our <a href= "https://discord.gg/HfpvkzE">***Discord Server***</a>, you can contact us there or you can even hit us up on <a href="https://www.instagram.com/ieeesfit/">***Instagram- @ieeesfit***</a>.
 
 - You may contact our Admin : [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) or Maintainer : [Clare Rebello](https://www.linkedin.com/in/clarerebello-2001)
 
