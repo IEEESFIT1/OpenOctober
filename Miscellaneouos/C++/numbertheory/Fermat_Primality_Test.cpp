@@ -31,7 +31,6 @@ int gcd(int a, int b)
 
 bool isPrime(unsigned int n, int k)
 {
-
 	if (n <= 1 || n == 4) return false;
 	if (n <= 3) return true;
 
