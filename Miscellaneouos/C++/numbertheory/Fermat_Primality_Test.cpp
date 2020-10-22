@@ -36,7 +36,7 @@ bool isPrime(unsigned int n, int k)
 
 	while (k>0)
 	{
-		int a = 2 + rand()%(n-4); 
+		int a = 2 + rand_r()%(n-4); 
 		
 		if (gcd(n, a) != 1)
 			return false;
