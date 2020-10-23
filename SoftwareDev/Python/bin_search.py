@@ -27,7 +27,7 @@ def bin_Search(arr, low, high, x):
 arr = map(int, input("Enter space separated array: ").split())
 x = int(input("Enter a number to be searched: "))
 
-result = bin_search(arr, 0, len(arr)-1, x) 
+result = bin_Search(arr, 0, len(arr)-1, x) 
   
 if result != -1: 
     print("Element is present at index", str(result)) 
