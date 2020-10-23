@@ -1,6 +1,6 @@
 /* Program used by salesman at Billing
 *  Counter in a supermarket, using Queue as Array
-* 
+*
 *  @author Pranav Yadav
 */
 
