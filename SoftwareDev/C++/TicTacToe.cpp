@@ -172,7 +172,6 @@ void playTicTacToe(int whoseTurn)
 } 
 int main() 
 { 
-	
 	playTicTacToe(COMPUTER); 
 	return 0; 
 } 
