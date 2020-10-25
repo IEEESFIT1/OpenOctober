@@ -1,17 +1,13 @@
 #include<bits/stdc++.h> 
 #include<iostream>
 using namespace std; 
-
 #define COMPUTER 1 
 #define HUMAN 2 
-
 #define SIDE 3 // Length of the board 
-
 // Computer will move with 'O' 
 // and human with 'X' 
 #define COMPUTERMOVE 'O' 
 #define HUMANMOVE 'X' 
-
 void showBoard(char board[][SIDE]) 
 { 
 	printf("\n\n"); 
@@ -24,30 +20,23 @@ void showBoard(char board[][SIDE])
 	printf("\t\t\t--------------\n"); 
 	printf("\t\t\t %c | %c | %c \n\n", board[2][0], 
 							board[2][1], board[2][2]); 
-
 	return; 
 } 
-
 void showInstructions() 
 { 
 	printf("\t\t\t Tic-Tac-Toe\n\n"); 
 	printf("Choose a cell numbered from 1 to 9 as below"
 			" and play\n\n"); 
-	
 	printf("\t\t\t 1 | 2 | 3 \n"); 
 	printf("\t\t\t--------------\n"); 
 	printf("\t\t\t 4 | 5 | 6 \n"); 
 	printf("\t\t\t--------------\n"); 
 	printf("\t\t\t 7 | 8 | 9 \n\n"); 
-	
 	printf("Let's Play with the computer! \t");
 	printf("X for Human and O for Computer \n");
-	
 	printf("-\t-\t-\t-\t-\t-\t-\t-\t-\t-\n\n"); 
-
 	return; 
 } 
-
 void initialise(char board[][SIDE], int moves[]) 
 { 
 	srand(time(NULL)); 
@@ -61,7 +50,6 @@ void initialise(char board[][SIDE], int moves[])
 		moves[i] = i; 
 
 	random_shuffle(moves, moves + SIDE*SIDE); 
-	
 	return; 
 } 
 void declareWinner(int whoseTurn) 
@@ -94,8 +82,6 @@ bool columnCrossed(char board[][SIDE])
 	} 
 	return(false); 
 } 
-
-
 bool diagonalCrossed(char board[][SIDE]) 
 { 
 	if (board[0][0] == board[1][1] && 
@@ -116,8 +102,6 @@ bool gameOver(char board[][SIDE])
 	return(rowCrossed(board) || columnCrossed(board) 
 			|| diagonalCrossed(board) ); 
 } 
-
-
 void playTicTacToe(int whoseTurn) 
 { 
 	char board[SIDE][SIDE]; 
@@ -186,7 +170,6 @@ void playTicTacToe(int whoseTurn)
 	} 
 	return; 
 } 
-
 int main() 
 { 
 	
