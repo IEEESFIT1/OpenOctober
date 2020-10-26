@@ -68,7 +68,6 @@ void author(){
  }while(key!=27);
 }
 
-
 void startingScreen(){
   choice = 0;
  clrscr();
@@ -120,8 +119,6 @@ void levelSelection(){
   levelSelection();
  }
 }
-
-
 void InsertNode(int data , int x , int y ){
      if(first == NULL){
      first = new node();
@@ -141,9 +138,8 @@ void InsertNode(int data , int x , int y ){
     temp->next = NULL;
     l->next = temp;
     l = temp;
-
    }
-     }
+   }
    
 void deleteNode(int data){
    temp = l =first;
@@ -167,7 +163,6 @@ void deleteNode(int data){
    }
    temp  = l;
    l = l->next;
- 
    }
 }
 
@@ -186,7 +181,6 @@ void helpScreen(){
  startingScreen();
  }
  }while(key!=27);
-
 }
 
 int randX(){
@@ -204,11 +198,11 @@ void printChar(){
             if(l->y<=20)
      l =  l->next;
      else{
-   missedNum[missedCounter++] = l->data ; //string missed and missed counter.
+   missedNum[missedCounter++] = l->data ; 
      deleteNode(l->data);
      printChar();
-   } //ending of if for deleting above maximum y.
-       } //ending of while
+   } 
+       } 
        gotoxy(l->x,l->y++);
        printf("%c\n",l->data);
  gotoxy(1,20);
@@ -223,23 +217,23 @@ void printChar(){
  printf("Characters Missed : ");
  for (int i=0 ; i<missedCounter ; i++){
   printf("%c ",missedNum[i]);
-} //enidng of for.
+} 
  gotoxy(60,24);
  printf("Wrong Key Hits : %d",wrongKeyCounter);
-} //ending of printing function
+} 
 
 void capitalAlphabet(){
  int randNum = 0;
- randNum = 65 + (rand() % (int)(90 - 65 + 1)); //random number formula between 65-90 for (A-Z)
+ randNum = 65 + (rand() % (int)(90 - 65 + 1)); 
  InsertNode(randNum,randX(),0);
  printChar();
-} //ending of capital alphabet.
+} 
 void digits(){
  int randNum = 0;
- randNum = 48 + (rand() % (int)(57 - 48 + 1)); //random number formula between 48-57 for (0-9)
+ randNum = 48 + (rand() % (int)(57 - 48 + 1)); 
  InsertNode(randNum,randX(),0);
  printChar();
-} //ending of digits.
+} 
 void keyPressed(){
   int key=0;
   do{
@@ -249,31 +243,29 @@ void keyPressed(){
   if(searchInLinkList(key) == 1){
    score++;
    deleteNode(key);
-  } //ending of if within if.
+  } 
   else{
   wrongKeyCounter++;
-  } //ending of else.
- } //ending of if kbhit
+  } 
+ } 
  if (levelChoice == 1){
   capitalAlphabet();
- } //ending of if.
+ } 
  else if(levelChoice == 3){
   digits();
- } //ending of else if.
+ } 
  delay(delayTime);
-}while(key != 27 && missedCounter+wrongKeyCounter<10 && t>0); //escape key.
+}while(key != 27 && missedCounter+wrongKeyCounter<10 && t>0); 
 if(missedCounter+wrongKeyCounter>=10){
  gameLost();
-} //ending of if with lost conditions.
+} 
 if (t<=0){
  winningScreen();
 }
-
- } //ending of key pressed method.
+ } 
 
 void gameLost(){
  clrscr();
- 
  delay(1000);
  printf("\n\n\t\t\t\tSummary");
  delay(1000);
@@ -306,11 +298,11 @@ int searchInLinkList(int data){
    if(l->data == data){
         search = 1;
         return search;
-   }        //ending of if.
+   }        
    l = l->next;
  }
  return search;
-} //ending of serach in link list function.
+} 
 
 void winningScreen(){
  clrscr();
