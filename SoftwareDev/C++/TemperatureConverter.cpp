@@ -83,7 +83,6 @@ public:
                 }
             }while (d!=7);
     }
-
 };
 int main()
 {
