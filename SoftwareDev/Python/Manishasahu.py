@@ -41,10 +41,9 @@ def message(msg, color):
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width / 6, dis_height / 3])
  
- 
+game_over=1
+game_close=1
 def gameLoop():
-    global game_over
-    global game_close
     game_over = False
     game_close = False
  
