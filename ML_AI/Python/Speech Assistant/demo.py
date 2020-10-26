@@ -32,4 +32,3 @@ if "hello" in text:
 
 if "What is your name" in text:
     speak("My name is Cassandra?")
-
