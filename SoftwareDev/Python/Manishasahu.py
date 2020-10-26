@@ -43,6 +43,8 @@ def message(msg, color):
  
  
 def gameLoop():
+    global game_over
+    global game_close
     game_over = False
     game_close = False
  
