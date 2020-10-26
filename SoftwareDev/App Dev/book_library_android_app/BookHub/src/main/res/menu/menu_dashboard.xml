@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        android:orderInCategory="100"
+        android:title="@string/string_action_sort"
+        app:showAsAction="always" />
+    <!--Order in category 100 wil place it rightmost-->
+    <!--Show as action always will remove the three dots symbol and place
+    it on the toolbar-->
+
+
+</menu>
