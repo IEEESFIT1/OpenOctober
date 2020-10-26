@@ -185,7 +185,7 @@ void helpScreen(){
 
 int randX(){
  int x = 0 ;
- x = (rand()%80)+1;
+ x = (rand_r()%80)+1;
  return x;
 }
 
@@ -224,13 +224,13 @@ void printChar(){
 
 void capitalAlphabet(){
  int randNum = 0;
- randNum = 65 + (rand() % (int)(90 - 65 + 1)); 
+ randNum = 65 + (rand_r() % (int)(90 - 65 + 1)); 
  InsertNode(randNum,randX(),0);
  printChar();
 } 
 void digits(){
  int randNum = 0;
- randNum = 48 + (rand() % (int)(57 - 48 + 1)); 
+ randNum = 48 + (rand_r() % (int)(57 - 48 + 1)); 
  InsertNode(randNum,randX(),0);
  printChar();
 } 
