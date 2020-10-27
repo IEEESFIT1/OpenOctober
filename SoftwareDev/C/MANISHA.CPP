@@ -22,7 +22,6 @@ int main()
  
 while(1)
    {
- 
     printf("\n1. Bubble Sort\n2. Selection Sort\n3. Insertion Sort\n4. Display Array.\n5. Exit the Program.\n");
     printf("\nEnter your Choice : ");
     scanf("%d",&choice);
@@ -56,13 +55,10 @@ void display(int arr[],int n)
    {
         printf(" %d ",arr[i]);
    }
- 
 }
- 
-
 void bubble_sort(int arr[],int n)
 {
-  int i,j,temp;
+ int i,j,temp;
   for(i=0;i<n;i++)
   {
       for(j=0;j<n-i-1;j++)
@@ -94,15 +90,12 @@ void selection_sort(int arr[],int n)
              arr[j]=temp;
             }
         }
- 
     }
 printf("After Selection sort Elements are : ");
 display(arr,n);
 }
- 
 void insertion_sort(int arr[],int n)
-{
-    int i,j,min;
+{int i,j,min;
     for(i=1;i<n;i++)
     {
         min=arr[i];
