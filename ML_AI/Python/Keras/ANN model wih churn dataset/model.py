@@ -148,6 +148,4 @@ generate_report()
 
 
 # save the model so created above into a pickle file.
-joblib.dump(classifier, 'prediction_classifier.pkl') 
-
-
+joblib.dump(classifier, 'prediction_classifier.pkl')
