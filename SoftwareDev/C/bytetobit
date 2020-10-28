@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(void) {
+	unsigned long long int n, T, b, nibble, b1, c, i;
+		scanf ("%lld", &T);
+	while (T--) {
+		b1 = 0;
+		nibble = b1;
+		b = 1;
+		scanf ("%lld", &n);
+		for (i = 1, c = 1; i < n; i++, c++) {
+			if (c%2 == 0 && c%8 !=0 && b) {
+				nibble = b;
+				c = 0;
+				b = 0;
+			}
+			else if (c%8 == 0 && c%16 != 0 && nibble) {
+				b1 = nibble;
+				c = 0;
+				nibble = 0;
+			}
+			else if (c%16 == 0) {
+				b = 2*b1;
+				c = 0;
+				b1 = 0;
+			} 
+		}	
+		printf ("%lld %lld %lld\n", b, nibble, b1);
+	}	
+	return 0;
+}
+
