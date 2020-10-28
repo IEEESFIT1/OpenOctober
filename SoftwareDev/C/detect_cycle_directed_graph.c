@@ -15,7 +15,7 @@ struct xe
 int main()
 {
 	int graph[50][50];// This will show the distances between the edges or these are called the edge weights.
-	int v, i, j, k, dst, x; // v= Number of vertices
+	#int v, i, j, k, dst, x; // v= Number of vertices
 	int dist[50], prev[50], count, temp[50], ct, min, prevs[50], dists[50], path[50];
 	int gtemp[50][50], r, s, jj, ii, disttemp[50][50], prevtemp[50][50], m;
 	int g1, g2, mo;
