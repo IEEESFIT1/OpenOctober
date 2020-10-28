@@ -66,14 +66,39 @@ void Encrypt() {
 
 	}
 	encrypt[i] = -1;
-	cout << "The Encrypted Message :";
-	for (int i = 0; encrypt[i] != -1; ++i)
+	cout << "Encrypted Message :";
+	for (int i = 0; encrypt[i] != -1; i++)
 	{
 		printf("%c", encrypt[i] );
 	}
 }
+void Decrypt()
+{
+	long int pt, ct, key = dc[0], k;
+	int i = 0;
+	while (encrypt[i] != -1)
+	{
+		ct = temp[i];
+		k = 1;
+		for (int j = 0; j < key; j++)
+		{
+			k = k * ct;
+			k = k % n;
+		}
+		pt = k + 96;
+		ms[i] = pt;
+		i++;
+	}
+	ms[i] = -1;
+	cout << "\nDecrypted Message :\n";
+	for (i = 0; ms[i] != -1; i++)
+		printf("%c", ms[i]);
+}
 int main() {
-
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
 	cout << "Enter 1st Prime No:\n";
 	cin >> p;
 	cout << "Enter 2nd Prime No:\n";
@@ -90,5 +115,6 @@ int main() {
 	}
 	CE();
 	Encrypt();
+	Decrypt();
 	return 0;
 }
