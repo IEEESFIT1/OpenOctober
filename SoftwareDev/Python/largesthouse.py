@@ -34,4 +34,3 @@ if house_number[position1] > house_number[position2]:
     print ('[%d,%d]' %(house_number[position2], house_number[position1]))
 else:
     print ('[%d,%d]' %(house_number[position1], house_number[position2]))
-
