@@ -21,5 +21,4 @@ int main()
    cout<<upper_bound(sortedarray3.begin() , sortedarray3.end(), 7) - sortedarray3.begin();
    cout<<"\nCase 3 : When element is not present in the array ";
    cout<<upper_bound(sortedarray2.begin() , sortedarray2.end(), 7) - sortedarray2.begin();
-	
 }
