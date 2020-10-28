@@ -45,7 +45,6 @@ void CE() {
 }
 
 void Encrypt() {
-
 	long int pt, ct, key = enc[0], k, l;
 	int i = 0;
 	l = strlen(message);
@@ -63,7 +62,6 @@ void Encrypt() {
 		ct = k + 96;
 		encrypt[i] = ct;
 		i++;
-
 	}
 	encrypt[i] = -1;
 	cout << "Encrypted Message :";
