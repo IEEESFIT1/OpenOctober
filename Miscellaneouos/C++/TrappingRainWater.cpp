@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 int trappingRainWater(int a[], int n) {
-
 	// Your code here
 	int l[n], r[n], sum = 0;
 	l[0] = a[0];
@@ -19,21 +18,12 @@ int trappingRainWater(int a[], int n) {
 			r[i] = r[i + 1];
 		sum = sum + max((min(l[i], r[i]) - a[i]), 0);
 	}
-
-
 	return sum;
-
 }
 int main() {
-
-// #ifndef ONLINE_JUDGE
-// 	freopen("input.txt", "r", stdin);
-// 	freopen("output.txt", "w", stdout);
-// #endif
 	cout << "Enter Test Case No:"
 	     int t;
 	cin >> t;
-
 	while (t--) {
 		int n;
 		cin >> n;
@@ -42,11 +32,8 @@ int main() {
 		cout << "Enter the hight of each block: ";
 		for (int i = 0; i < n; i++) {
 			cin >> a[i];
-
 		}
 		cout << "water trapped is " << trappingRainWater(a, n) << " units" << endl;
 	}
-
-
 	return 0;
 }
