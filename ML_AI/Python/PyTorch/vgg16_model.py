@@ -207,7 +207,7 @@ class VGG16(nn.Module):
         )
 
         for m in self.modules():
-            if isinstance(m, torch.nn.Conv2d) or isinstance(m, torch.nn.Linear):
+            if isinstance((m, torch.nn.Conv2d), (m, torch.nn.Linear)):
                 nn.init.kaiming_uniform_(m.weight, mode='fan_in', nonlinearity='leaky_relu')
 #                 nn.init.xavier_normal_(m.weight)
                 if m.bias is not None:
@@ -261,14 +261,12 @@ for epoch in range(num_epochs):
                 
         running_loss += float(loss.item())
     end = time.perf_counter()
-    print('epoch {}/{}\tTrain loss: {:.4f}\tTrain accuracy: {:.2f}%'.
-          format(epoch + 1, num_epochs, running_loss / (index + 1), correct_pred.item() / (batch_size * (index + 1)) * 100))
+    print('epoch {}/{}\tTrain loss: {:.4f}\tTrain accuracy: {:.2f}%'. format(epoch + 1, num_epochs, running_loss / (index + 1), correct_pred.item() / (batch_size * (index + 1)) * 100))
     print('Time: {:.2f}s'.format(end - start))
-print('Finished training!')
 
-"""
-test
-"""
+    
+print('Finished training!')
+#test
 test_loss = 0.0
 correct_pred = 0
 model.eval()
