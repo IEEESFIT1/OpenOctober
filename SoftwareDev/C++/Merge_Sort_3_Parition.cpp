@@ -2,9 +2,11 @@
 // Contributed to OpenOctober
 #include <bits/stdc++.h> 
 using namespace std; 
-  
-void merge(int gArray[], int low, int mid1,  
-           int mid2, int high, int destArray[])  
+
+int gArray[1000];
+int destArray[1000];
+
+void merge(int low, int mid1,  int mid2, int high)  
 {  
     int i = low, j = mid1, k = mid2, l = low;  
     while ((i < mid1) && (j < mid2) && (k < high))  
@@ -73,17 +75,16 @@ void merge(int gArray[], int low, int mid1,
         destArray[l++] = gArray[k++];  
 }  
 
-void mergeSort3WayRec(int gArray[], int low, 
-                      int high, int destArray[])  
+void mergeSort3WayRec(int low, int high)  
 {  
     if (high - low < 2)  
         return;  
     int mid1 = low + ((high - low) / 3);  
     int mid2 = low + 2 * ((high - low) / 3) + 1;  
-    mergeSort3WayRec(destArray, low, mid1, gArray);  
-    mergeSort3WayRec(destArray, mid1, mid2, gArray);  
-    mergeSort3WayRec(destArray, mid2, high, gArray);  
-    merge(destArray, low, mid1, mid2, high, gArray);  
+    mergeSort3WayRec(low, mid1);  
+    mergeSort3WayRec(mid1, mid2);  
+    mergeSort3WayRec(mid2, high);  
+    merge(low, mid1, mid2, high);  
 } 
   
 void mergeSort3Way(int gArray[], int n)  
@@ -93,7 +94,7 @@ void mergeSort3Way(int gArray[], int n)
     int fArray[n];  
     for (int i = 0; i < n; i++)  
         fArray[i] = gArray[i];  
-    mergeSort3WayRec(fArray, 0, n, gArray); 
+    mergeSort3WayRec(0, n); 
     for (int i = 0; i < n; i++)  
         gArray[i] = fArray[i];  
 }  
