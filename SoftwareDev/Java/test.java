@@ -10,6 +10,7 @@ public class test
              }
          }
              catch (IOException e) {
+		System.out.println("Warning: Some exception has occured!");
          }
      }
      public static SocketChannel createSocketChannel(String hostName, int port) throws IOException
