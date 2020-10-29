@@ -261,10 +261,9 @@ for epoch in range(num_epochs):
                 
         running_loss += float(loss.item())
     end = time.perf_counter()
-    print('epoch {}/{}\tTrain loss: {:.4f}\tTrain accuracy: {:.2f}%'. format(epoch + 1, num_epochs, running_loss / (index + 1), correct_pred.item() / (batch_size * (index + 1)) * 100))
+    # print('epoch {}/{}\tTrain loss: {:.4f}\tTrain accuracy: {:.2f}%'. format(epoch + 1, num_epochs, running_loss / (index + 1), correct_pred.item() / (batch_size * (index + 1)) * 100))
     print('Time: {:.2f}s'.format(end - start))
 
-    
 print('Finished training!')
 #test
 test_loss = 0.0
