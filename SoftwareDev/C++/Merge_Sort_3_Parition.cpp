@@ -1,113 +1,63 @@
 // Contributed by Kartikey Sharma
 // Contributed to OpenOctober
-#include <bits/stdc++.h> 
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
-int gArray[1000];
-int destArray[1000];
+void partition(int a[], int l, int r, int& i, int& j)
+{
+    i = l - 1, j = r;
+    int p = l - 1, q = r;
+    int v = a[r];
+ 
+    while (true) {
+        while (a[++i] < v)
+            ;
+        while (v < a[--j])
+            if (j == l)
+                break;
 
-void merge(int low, int mid1,  int mid2, int high)  
-{  
-    int i = low, j = mid1, k = mid2, l = low;  
-    while ((i < mid1) && (j < mid2) && (k < high))  
-    {  
-        if(gArray[i] < gArray[j]) 
-        { 
-            if(gArray[i] < gArray[k]) 
-            { 
-                destArray[l++] = gArray[i++]; 
-            } 
-            else
-            { 
-                destArray[l++] = gArray[k++]; 
-            } 
-        } 
-        else
-        { 
-            if(gArray[j] < gArray[k]) 
-            { 
-                destArray[l++] = gArray[j++]; 
-            } 
-            else
-            { 
-                destArray[l++] = gArray[k++]; 
-            } 
-        } 
-    }  
-    while ((i < mid1) && (j < mid2))  
-    {  
-        if(gArray[i] < gArray[j]) 
-        { 
-            destArray[l++] = gArray[i++]; 
-        } 
-        else
-        { 
-            destArray[l++] = gArray[j++]; 
-        } 
-    }  
-    while ((j < mid2) && (k < high))  
-    {  
-        if(gArray[j] < gArray[k]) 
-        { 
-            destArray[l++] = gArray[j++]; 
-        } 
-        else
-        { 
-            destArray[l++] = gArray[k++]; 
-        }  
-    }  
-    while ((i < mid1) && (k < high))  
-    {  
-        if(gArray[i] < gArray[k]) 
-        { 
-            destArray[l++] = gArray[i++]; 
-        } 
-        else
-        { 
-            destArray[l++] = gArray[k++]; 
-        }  
-    }  
-    while (i < mid1)  
-        destArray[l++] = gArray[i++];   
-    while (j < mid2)  
-        destArray[l++] = gArray[j++];   
-    while (k < high)  
-        destArray[l++] = gArray[k++];  
-}  
-
-void mergeSort3WayRec(int low, int high)  
-{  
-    if (high - low < 2)  
-        return;  
-    int mid1 = low + ((high - low) / 3);  
-    int mid2 = low + 2 * ((high - low) / 3) + 1;  
-    mergeSort3WayRec(low, mid1);  
-    mergeSort3WayRec(mid1, mid2);  
-    mergeSort3WayRec(mid2, high);  
-    merge(low, mid1, mid2, high);  
-} 
-  
-void mergeSort3Way(int gArray[], int n)  
-{  
-    if (n == 0)  
-        return;   
-    int fArray[n];  
-    for (int i = 0; i < n; i++)  
-        fArray[i] = gArray[i];  
-    mergeSort3WayRec(0, n); 
-    for (int i = 0; i < n; i++)  
-        gArray[i] = fArray[i];  
-}  
-  
-int main() 
-{ 
-    int data[] = {45, -2, -45, 78, 30,  
-                 -42, 10, 19, 73, 93}; 
-    mergeSort3Way(data,10); 
-    cout << "After 3 way merge sort: \n"; 
-    for (int i = 0; i < 10; i++) 
-    { 
-        cout << data[i] << " "; 
-    } 
-    return 0; 
-} 
+        if (i >= j)
+            break;
+        swap(a[i], a[j]);
+        if (a[i] == v) {
+            p++;
+            swap(a[p], a[i]);
+        }
+        if (a[j] == v) {
+            q--;
+            swap(a[j], a[q]);
+        }
+    }
+    swap(a[i], a[r]);
+    j = i - 1;
+    for (int k = l; k < p; k++, j--)
+        swap(a[k], a[j]);
+    i = i + 1;
+    for (int k = r - 1; k > q; k--, i++)
+        swap(a[i], a[k]);
+}
+void mergesort(int a[], int l, int r)
+{
+    if (r <= l)
+        return;
+    int i, j;
+    partition(a, l, r, i, j);
+    mergesort(a, l, j);
+    mergesort(a, i, r);
+}
+void printarr(int a[], int n)
+{
+    for (int i = 0; i < n; ++i)
+        printf("%d  ", a[i]);
+    printf("\n");
+}
+int main()
+{
+    int a[] = { 4, 9, 4, 4, 1, 9, 4, 4, 9, 4, 4, 1, 4 };
+    int size = sizeof(a) / sizeof(int);
+    printarr(a, size);
+    mergesort(a, 0, size - 1);
+    cout<<"After mergesort: \n";
+    printarr(a, size);
+    return 0;
+}
