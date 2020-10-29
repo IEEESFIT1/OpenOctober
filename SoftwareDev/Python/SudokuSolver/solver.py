@@ -61,6 +61,4 @@ def emptyCell(board):
 
 def printBoard(board):
     print(np.matrix(board))
-
-
     
