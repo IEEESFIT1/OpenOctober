@@ -1,22 +1,20 @@
 # Implementation of the pigeonhole sort using python
-def pigeon_hole(input):
-    # calculate size for list( no of pigeon holes)
-    max_no = max(input) 
-    min_no = min(input)
-    size = max_no - min_no + 1
-    holes = [0] * size
-    for i in input:
-        holes[i- min_no] += 1
-    index = 0
-    for i in range(size):
-        while holes[i] > 0:
-            holes[i] -= 1
-            input[index] = i + min_no
-            index = index + 1
-    return input
-print("Enter number of elements")
-n = int(input())
-print("Enter elements of array")
-array = [int(x) for x in input().split(' ')]
-pigeon_hole(array)
-print(array)
+def pigeonhole_sort(a): 
+	my_min = min(a) 
+	my_max = max(a) 
+	size = my_max - my_min + 1 
+	holes = [0] * size 
+	for x in a: 
+		assert type(x) is int, "integers only please"
+		holes[x - my_min] += 1
+	i = 0
+	for count in range(size): 
+		while holes[count] > 0: 
+			holes[count] -= 1
+			a[i] = count + my_min 
+			i += 1
+a = [8, 3, 2, 7, 4, 6, 8] 
+print("Sorted order is : ", end =" ") 
+pigeonhole_sort(a) 
+for i in range(0, len(a)): 
+	print(a[i], end =" ") 
