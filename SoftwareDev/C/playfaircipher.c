@@ -5,10 +5,11 @@ int removerepeated(int size,int a[]);
 int insertelementat(int position,int a[],int size);
 main()
 {
- int i,j,k,numstr[100],numcipher[100],numkey[100],lenkey,templen,tempkey[100],flag=-1,size,cipherkey[5][5],lennumstr,row1,row2,col1,col2;
+ int i,j,k,numstr[100],numcipher[100],numkey[100],lenkey,templen;
+ int tempkey[100],flag=-1,size,cipherkey[5][5],lennumstr,row1,row2,col1,col2;
  char str[100],key[100];
  printf("Enter a string\n");
- gets(str);
+ fgets(str);
  //converting entered string to Capital letters
  for(i=0,j=0;i<strlen(str);i++)
  {
@@ -30,7 +31,7 @@ main()
  lennumstr=i;
  //Key processing
  printf("Enter the key (Non repeated elements if possible)\n");
- gets(key);
+ fgets(key);
  //converting entered key to Capital letters
  for(i=0,j=0;i<strlen(key);i++)
  {
