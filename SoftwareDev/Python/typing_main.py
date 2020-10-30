@@ -1,5 +1,5 @@
 import tkinter
-from tkinter import *
+from tkinter import Tk
 from timeit import default_timer as timer 
 import random 
   
@@ -9,11 +9,13 @@ window = Tk()
 # the size of the window is defined 
 window.geometry("450x200") 
   
-x = 0
+
   
 # defining the function for the test 
-def game(): 
-    global x 
+class test:
+    def__init__(self,x):
+        self.x=x 
+     
   
     # loop for destroying the window 
     # after on test 
