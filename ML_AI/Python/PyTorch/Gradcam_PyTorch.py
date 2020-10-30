@@ -242,7 +242,7 @@ if __name__ == '__main__':
 
     img = cv2.imread(args.image_path, 1)
     img = np.float32(cv2.resize(img, (224, 224))) / 255
-    # input = preprocess_image(image)
+    input = preprocess_image(image)
 
     # If None, returns the map for the highest scoring category.
     # Otherwise, targets the requested index.
