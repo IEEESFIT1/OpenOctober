@@ -100,7 +100,7 @@ class GradCam:
         else:
             features, output = self.extractor(input)
 
-        if index == None:
+        if index is None:
             index = np.argmax(output.cpu().data.numpy())
 
         one_hot = np.zeros((1, output.size()[-1]), dtype=np.float32)
@@ -182,7 +182,7 @@ class GuidedBackpropReLUModel:
         else:
             output = self.forward(input)
 
-        if index == None:
+        if index is None:
             index = np.argmax(output.cpu().data.numpy())
 
         one_hot = np.zeros((1, output.size()[-1]), dtype=np.float32)
@@ -229,12 +229,7 @@ def deprocess_image(img):
 
 
 if __name__ == '__main__':
-    """ python grad_cam.py <path_to_image>
-    1. Loads an image with opencv.
-    2. Preprocesses it for VGG19 and converts to a pytorch variable.
-    3. Makes a forward pass to find the category index with the highest score,
-    and computes intermediate activations.
-    Makes the visualization. """
+
 
     args = get_args()
 
@@ -247,7 +242,7 @@ if __name__ == '__main__':
 
     img = cv2.imread(args.image_path, 1)
     img = np.float32(cv2.resize(img, (224, 224))) / 255
-    input = preprocess_image(img)
+    input = preprocess_image(image)
 
     # If None, returns the map for the highest scoring category.
     # Otherwise, targets the requested index.
