@@ -42,14 +42,7 @@ class Decision_Tree:
         return np.mean((labels - prediction) ** 2)
 
     def train(self, X, y):
-        """
-        train:
-        @param X: a one dimensional numpy array
-        @param y: a one dimensional numpy array.
-        The contents of y are the labels for the corresponding X values
 
-        train does not have a return value
-        """
 
         if X.ndim != 1:
             print("Error: Input data set must be one dimensional")
@@ -72,12 +65,6 @@ class Decision_Tree:
         best_split = 0
         min_error = self.mean_squared_error(X, np.mean(y)) * 2
 
-        """
-        loop over all possible splits for the decision tree. find the best split.
-        if no split exists that is less than 2 * error for the entire array
-        then the data set is not split and the average for the entire array is used as
-        the predictor
-        """
         for i in range(len(X)):
             if len(X[:i]) < self.min_leaf_size:
                 continue
@@ -123,9 +110,7 @@ class Decision_Tree:
         if self.left or self.right is not None:
             if x >= self.decision_boundary:
                 return self.right.predict(x)
-            else:
-                return self.left.predict(x)
-
+    
 
 class Test_Decision_Tree:
     """Decision Tres test class"""
