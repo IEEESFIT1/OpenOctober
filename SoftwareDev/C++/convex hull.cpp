@@ -35,7 +35,6 @@ void convexHull(Point points[], int n)
 			q = i; 
 		} 
 		p = q; 
-
 	} while (p != l); 
 
 	for (int i = 0; i < hull.size(); i++) 
@@ -51,4 +50,3 @@ int main()
 	convexHull(points, n); 
 	return 0; 
 } 
-
