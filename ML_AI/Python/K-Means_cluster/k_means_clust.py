@@ -130,26 +130,6 @@ def kmeans(
 
     return centroids, cluster_assignment
 
-
-# Mock test below
-if False:  # change to true to run this test case.
-    from sklearn import datasets as ds
-
-    dataset = ds.load_iris()
-    k = 3
-    heterogeneity = []
-    initial_centroids = get_initial_centroids(dataset["data"], k, seed=0)
-    centroids, cluster_assignment = kmeans(
-        dataset["data"],
-        k,
-        initial_centroids,
-        maxiter=400,
-        record_heterogeneity=heterogeneity,
-        verbose=True,
-    )
-    plot_heterogeneity(heterogeneity, k)
-
-
 def ReportGenerator(
     df: pd.DataFrame, ClusteringVariables: np.array, FillMissingReport=None
 ) -> pd.DataFrame:
