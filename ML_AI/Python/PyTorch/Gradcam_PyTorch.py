@@ -56,7 +56,7 @@ class ModelOutputs():
         return target_activations, x
 
 
-def preprocess_image(img):
+def preprocess_image1(img):
     means = [0.485, 0.456, 0.406]
     stds = [0.229, 0.224, 0.225]
 
@@ -241,8 +241,8 @@ if __name__ == '__main__':
                        target_layer_names=["2"], use_cuda=args.use_cuda)
 
     img = cv2.imread(args.image_path, 1)
-    img = np.float32(cv2.resize(img, (224, 224))) / 255
-    input = preprocess_image(image)
+    image2 = np.float32(cv2.resize(img, (224, 224))) / 255
+    input = preprocess_image1(image2)
 
     # If None, returns the map for the highest scoring category.
     # Otherwise, targets the requested index.
