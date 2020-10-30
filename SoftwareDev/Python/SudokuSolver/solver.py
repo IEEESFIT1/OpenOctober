@@ -17,8 +17,9 @@ def solve(board):
     
     if not findEmpty:
         return True   # Board is filled 
-    else:
-        row, column = findEmpty
+     
+    return row, column = findEmpty
+        
     
     for i in range(1,10):
         if isValid(board, i, (row, column)):
