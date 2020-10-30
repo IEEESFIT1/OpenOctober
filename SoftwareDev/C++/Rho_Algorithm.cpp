@@ -44,8 +44,8 @@ int pollard_rho(int n)
     if(n%2==0)
         return 2;
 
-    int x = rand()%n+1;
-    int c = rand()%n+1;
+    int x = rand_r(0)%n+1;
+    int c = rand_r(0)%n+1;
     int y = x;
     int g = 1;
     while(g==1)
