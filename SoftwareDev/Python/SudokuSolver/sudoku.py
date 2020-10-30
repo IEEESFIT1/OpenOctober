@@ -30,8 +30,8 @@ class SudokuSolver():
         
         if not findEmpty:
             return True   
-        else:
-            row, column = findEmpty
+      
+        return row, column = findEmpty
         
         for i in range(1,10):
             if self.isValid(i, (row, column)):
