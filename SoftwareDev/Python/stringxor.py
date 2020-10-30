@@ -1,6 +1,6 @@
 def strings_xor(s, t):
     res = ""
-    for i,t in enumerate(s):
+    for i,res in enumerate(s):
         if s[i] == t[i]:
             res += '0'
         else:
