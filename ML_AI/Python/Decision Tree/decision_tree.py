@@ -51,10 +51,6 @@ class Decision_Tree:
         train does not have a return value
         """
 
-        """
-        this section is to check that the inputs conform to our dimensionality
-        constraints
-        """
         if X.ndim != 1:
             print("Error: Input data set must be one dimensional")
             return
@@ -124,14 +120,11 @@ class Decision_Tree:
         """
         if self.prediction is not None:
             return self.prediction
-        elif self.left or self.right is not None:
+        if self.left or self.right is not None:
             if x >= self.decision_boundary:
                 return self.right.predict(x)
             else:
                 return self.left.predict(x)
-        else:
-            print("Error: Decision tree not yet trained")
-            return None
 
 
 class Test_Decision_Tree:
