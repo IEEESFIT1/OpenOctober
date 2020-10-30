@@ -4,7 +4,7 @@ GUI which allows you to solve any Sudoku puzzle.
 The GUI has been created using Tkinter and a backtracking algorithm has been used.
 '''
 import tkinter
-from tkinter import *
+from tkinter import Tk
 
 root = Tk()
 root.geometry('330x370')
@@ -30,8 +30,8 @@ class SudokuSolver():
         
         if not findEmpty:
             return True   
-        else:
-            row, column = findEmpty
+      
+        return row, column = findEmpty
         
         for i in range(1,10):
             if self.isValid(i, (row, column)):
