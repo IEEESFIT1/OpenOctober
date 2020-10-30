@@ -242,18 +242,18 @@ if __name__ == '__main__':
 
     img = cv2.imread(args.image_path, 1)
     image2 = np.float32(cv2.resize(img, (224, 224))) / 255
-    input = preprocess_image1(image2)
+    input1 = preprocess_image1(image2)
 
     # If None, returns the map for the highest scoring category.
     # Otherwise, targets the requested index.
     target_index = None
-    mask = grad_cam(input, target_index)
+    mask = grad_cam(input1, target_index)
 
     show_cam_on_image(img, mask)
 
     gb_model = GuidedBackpropReLUModel(model=model, use_cuda=args.use_cuda)
     print(model._modules.items())
-    gb = gb_model(input, index=target_index)
+    gb = gb_model(input1, index=target_index)
     gb = gb.transpose((1, 2, 0))
     cam_mask = cv2.merge([mask, mask, mask])
     cam_gb = deprocess_image(cam_mask*gb)
