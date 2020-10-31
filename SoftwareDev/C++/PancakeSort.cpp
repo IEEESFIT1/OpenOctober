@@ -2,8 +2,6 @@
 #include<bits/stdc++.h>
 using namespace std; 
 void flip(int arr[] , int i){
-
-
 	for(int j = 0 ; j <= (i / 2) ; j++)
 	{
 		int temp = arr[i-j] ; 
@@ -20,8 +18,7 @@ void sort(int arr[] , int n){
 		{
 		flip(arr, max_index); 
 		flip(arr, curr_size -1) ;}
-		curr_size-- ; 
-		
+		curr_size-- ; 	
 	}
 }
 int main()
@@ -32,8 +29,6 @@ int main()
 	{
 		cin >> a[i] ; 
 	}
-
-
 	sort(a , n); 
 	for(int i = 0 ; i < n ; i ++)
 	{
