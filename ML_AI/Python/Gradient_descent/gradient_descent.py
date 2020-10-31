@@ -53,8 +53,7 @@ def output(example_no, data_set):
     """
     if data_set == "train":
         return train_data[example_no][1]
-    elif data_set == "test":
-        return test_data[example_no][1]
+    return test_data[example_no][1]
 
 
 def calculate_hypothesis_value(example_no, data_set):
@@ -66,8 +65,7 @@ def calculate_hypothesis_value(example_no, data_set):
     """
     if data_set == "train":
         return _hypothesis_value(train_data[example_no][0])
-    elif data_set == "test":
-        return _hypothesis_value(test_data[example_no][0])
+    return _hypothesis_value(test_data[example_no][0])
 
 
 def summation_of_cost_derivative(index, end=m):
@@ -100,7 +98,7 @@ def get_cost_derivative(index):
 
 
 def run_gradient_descent():
-    global parameter_vector
+    parameter_vector = 0
     # Tune these values to set a tolerance value for predicted output
     absolute_error_limit = 0.000002
     relative_error_limit = 0
@@ -108,10 +106,10 @@ def run_gradient_descent():
     while True:
         j += 1
         temp_parameter_vector = [0, 0, 0, 0]
-        for i in range(0, len(parameter_vector)):
-            cost_derivative = get_cost_derivative(i - 1)
+        for i, item in enumerate(get_cost_derivative):
+            # cost_derivative = get_cost_derivative(i - 1)
             temp_parameter_vector[i] = (
-                parameter_vector[i] - LEARNING_RATE * cost_derivative
+                parameter_vector[i] - LEARNING_RATE * get_cost_derivative(i - 1)
             )
         if numpy.allclose(
             parameter_vector,
