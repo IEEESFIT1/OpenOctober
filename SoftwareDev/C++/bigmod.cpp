@@ -15,7 +15,6 @@ long long int bigmod(long long int a,long long int b,long long c)
 		y=bigmod(a,b-1,c);
 		return (x*y)%c;
 	}
-	
 }
 int main()
 {
