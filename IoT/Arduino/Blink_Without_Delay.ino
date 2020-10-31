@@ -12,12 +12,7 @@ void loop() {
   unsigned long currentMillis = millis();
   if (interval <= currentMillis - previousMillis) {
     previousMillis = currentMillis;
-    if (ledState == HIGH) {
-      ledState = LOW;
-    } 
-	else {
-      ledState = HIGH;
-    }
+    ledState = ledState == HIGH ? LOW: HIGH;
     digitalWrite(ledPin, ledState);
   }
 }
