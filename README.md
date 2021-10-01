@@ -1,6 +1,11 @@
 # **ISSB Open October '20** 
 > The Fall of Code 🍁
 
+
+> The quest for our Top Contributing Warrior has finally ended 🏆 
+>> Kuddos to everyone who assisted in making this event a success, cheers to all our warriors ⭐
+>>> We continue to welcome contributions to this repo, Happy Contributing!
+
 [![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/0)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/0)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/1)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/1)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/2)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/2)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/3)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/3)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/4)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/4)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/5)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/5)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/6)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/6)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/7)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/7)
 
 ![Untitled design](https://user-images.githubusercontent.com/58616834/96333168-f0b4af00-1085-11eb-8c16-a3d8b070a684.jpeg )
@@ -25,7 +30,7 @@ This competition will go on for a week but don't be disheartened, you can keep c
 ## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
 > The event will be held from ***18th to 31st October 2020***</b><br>
 
-### Register [Here](https://forms.gle/kKVD9xzwBmuXee4V9) and Join our [Discord Channel](https://discord.gg/hRTMS6z).
+### Register [Here](https://forms.gle/kKVD9xzwBmuXee4V9) and Join our [Discord Channel](https://discord.gg/HfpvkzE).
 
 ## Overview 😯
 
@@ -58,7 +63,7 @@ i.e C, C++, Java, Python and R
   a) ***Amount of MR,PR and issues raised***<br>
   b) ***Quality of code***<br>
   
-8. A [Discord channel](https://discord.gg/hRTMS6z) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
+8. A [Discord channel](https://discord.gg/HfpvkzE) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
 > We hope contributions are made through fair and non-plagiarised means
 ##  STEPS TO CONTRIBUTE 😏
 1. **Fork** this Repository.
@@ -86,7 +91,7 @@ i.e C, C++, Java, Python and R
  - Create multiple issue request for one issue
 
 ### Still not sure what the event is?
-- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/hRTMS6z).
+- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/HfpvkzE).
 
 ### Maintainers
 - [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) : Admin
@@ -102,7 +107,7 @@ i.e C, C++, Java, Python and R
   <a href="https://www.instagram.com/ieeesfit/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
   <a href="https://www.facebook.com/ieeesfitstudentbranch/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
   <a href="mailto: ieeesfitsb@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-   <a href="https://discord.gg/hRTMS6z" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
+   <a href="https://discord.gg/HfpvkzE" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png"/></a>
   
  
 </div>
