@@ -22,12 +22,12 @@
 > PS. you're currently at the right place!
 
 ### ***IF at any time of the event I don't understand something or I am Stuck, whom do I contact or how do I get a help?*** 
-- We will provide you with the link to our <a href= "https://discord.gg/HfpvkzE">***Discord Server***</a>, you can contact us there or you can even hit us up on <a href="https://www.instagram.com/ieeesfit/">***Instagram- @ieeesfit***</a>.
+- We will provide you with the link to our <a href= "https://discord.gg/J86hCjMj6h">***Discord Server***</a>, you can contact us there or you can even hit us up on <a href="https://www.instagram.com/ieeesfit/">***Instagram- @ieeesfit***</a>.
 
-- You may contact our Admin : [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) or Maintainer : [Clare Rebello](https://www.linkedin.com/in/clarerebello-2001)
+- You may contact our Admin : [Orvil D'silva](https://www.linkedin.com/in/orvil-d-silva-469a331b4) or Maintainer : [Reo Correia](https://www.linkedin.com/in/reo-correia-120688193/)
 
 ### ***How long the event will go on for?*** 
-- 18th to 31st October 2020.
+- 7th to 13t October 2021.
 
 ### ***Do I have to join the event from first day itself and stay until last?*** 
 - No, you may join anytime. It's your efficiency and amount of contributions that count.
