@@ -29,6 +29,7 @@ This competition will go on for a week but don't be disheartened, you can keep c
 
 ### Register [Here](https://forms.gle/ahgDZn947UV4yTk78) and Join our [Discord Channel](https://discord.gg/J86hCjMj6h).
 
+### Also Register with [Hactoberfest](https://hacktoberfest.digitalocean.com/)
 ## Overview 😯
 
 OpenOctober is open to everyone whether you're new to development , a student or a long time contributer.
