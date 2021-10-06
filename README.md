@@ -40,6 +40,8 @@ b. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/EthicalHacking"
 c. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI">ML/AI</a><br>
 d. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/SoftwareDev">Software Development</a><br>
 e. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI/Miscellaneous">Miscellaneous</a><br>
+f. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/Algorithms">Algorithms</a><br>
+g. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/Data%20Structures">Data Structures</a><br>
   
 the 5th folder is a miscellaneous folder, each folder consisting of 4 more sub folders <b>for each major programming language</b>
 i.e C, C++, Java, Python and R
