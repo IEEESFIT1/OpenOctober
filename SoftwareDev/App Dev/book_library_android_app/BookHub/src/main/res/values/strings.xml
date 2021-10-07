@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="favourites">Favourites</string>
+    <string name="about_app">About App</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtdashboard">Dashboard Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="name_of_author">Name of Author</string>
+    <string name="list_item">List Item</string>
+    <string name="_4_5">4.5</string>
+    <string name="book_cost">Book Cost</string>
+    <string name="text_rupees_symbol">\"Rs. \"</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="string_action_sort">Sort</string>
+    <string name="kartikey_sharma">Kartikey Sharma</string>
+    <string name="it_s_levioosa_not_leviosaa">It\'s Levioosa, not Leviosaa !</string>
+    <string name="sample_author">Sample Author</string>
+    <string name="sample_cost">Rs. 499</string>
+    <string name="sample_book_name">Book Name</string>
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc metus felis, elementum et porttitor quis, rhoncus at lectus. Nunc et orci in turpis molestie porta. Donec scelerisque ante vitae enim facilisis, et luctus tellus vestibulum. Ut volutpat neque tortor, in venenatis risus pulvinar eu. Ut turpis erat, tempus in dapibus eget, convallis sit amet tortor. Nullam ligula est, tempus id tincidunt ut, feugiat et magna. Maecenas et rutrum turpis. Aliquam ac egestas nulla, sit amet consequat lorem. Donec maximus libero at hendrerit porta. Nunc pellentesque arcu sed tortor tincidunt, ut elementum leo scelerisque. Morbi id lorem sed arcu pulvinar condimentum ut vel mauris. Nullam ipsum ante, fermentum vitae malesuada mollis, pretium et lectus. Maecenas tincidunt, urna at varius dignissim, tortor turpis vulputate leo, nec gravida massa arcu egestas lorem. Donec at lacus dignissim risus placerat gravida at ac felis. Pellentesque in imperdiet mauris, non laoreet tortor. Sed vitae imperdiet quam. Vestibulum rutrum, metus sed vulputate mattis, magna tellus maximus lectus, ut interdum metus erat eu velit.</string>
+</resources>

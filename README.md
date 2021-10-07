@@ -1,9 +1,11 @@
-# **ISSB Open October '20** 
-> The Fall of Code 🍁
+# **ISSB Open October '21** 
+>  🔮🎃 TRICK OR TREAT 🎃🔮 
+
 
 [![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/0)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/0)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/1)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/1)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/2)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/2)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/3)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/3)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/4)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/4)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/5)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/5)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/6)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/6)[![](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/images/7)](https://sourcerer.io/fame/ieee-sfit/IEEESFIT1/OpenOctober/links/7)
 
-![Untitled design](https://user-images.githubusercontent.com/58616834/96333168-f0b4af00-1085-11eb-8c16-a3d8b070a684.jpeg )
+
+![WhatsApp Image 2021-10-03 at 2 18 15 PM](https://user-images.githubusercontent.com/58859056/135747250-7d01a5d5-44b6-4c30-b609-f6d1e9c26fe4.jpeg)
 
 
 ## ***What is OpenOctober?*** 
@@ -23,10 +25,11 @@ This competition will go on for a week but don't be disheartened, you can keep c
 >>>> So start here!⚡
   
 ## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
-> The event will be held from ***18th to 31st October 2020***</b><br>
+> The event will be held from ***7th to 13th October 2021***</b><br>
 
-### Register [Here](https://forms.gle/kKVD9xzwBmuXee4V9) and Join our [Discord Channel](https://discord.gg/HfpvkzE).
+### Register [Here](https://forms.gle/ahgDZn947UV4yTk78) and Join our [Discord Channel](https://discord.gg/J86hCjMj6h).
 
+### Also Register with [Hactoberfest](https://hacktoberfest.digitalocean.com/)
 ## Overview 😯
 
 OpenOctober is open to everyone whether you're new to development , a student or a long time contributer.
@@ -38,6 +41,8 @@ b. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/EthicalHacking"
 c. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI">ML/AI</a><br>
 d. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/SoftwareDev">Software Development</a><br>
 e. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/ML_AI/Miscellaneous">Miscellaneous</a><br>
+f. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/Algorithms">Algorithms</a><br>
+g. <a href="https://github.com/IEEESFIT1/OpenOctober/tree/master/Data%20Structures">Data Structures</a><br>
   
 the 5th folder is a miscellaneous folder, each folder consisting of 4 more sub folders <b>for each major programming language</b>
 i.e C, C++, Java, Python and R
@@ -58,7 +63,7 @@ i.e C, C++, Java, Python and R
   a) ***Amount of MR,PR and issues raised***<br>
   b) ***Quality of code***<br>
   
-8. A [Discord channel](https://discord.gg/HfpvkzE) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
+8. A [Discord channel](https://discord.gg/J86hCjMj6h) is created for the participants to collaborate and interact with one another for the duration of the competition.<br>
 > We hope contributions are made through fair and non-plagiarised means
 ##  STEPS TO CONTRIBUTE 😏
 1. **Fork** this Repository.
@@ -86,13 +91,12 @@ i.e C, C++, Java, Python and R
  - Create multiple issue request for one issue
 
 ### Still not sure what the event is?
-- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/HfpvkzE).
+- Check out our [FAQ section](https://github.com/IEEESFIT1/OpenOctober/blob/master/FAQ.md) and join us on our [Discord channel](https://discord.gg/J86hCjMj6h).
 
 ### Maintainers
-- [Anshika Gupta](https://www.linkedin.com/in/anshikagupta08/) : Admin
-- [Clare Rebello](https://www.linkedin.com/in/clarerebello-2001)
 - [Orvil Dsilva](https://www.linkedin.com/in/orvil-d-silva-469a331b4)
-- [Ashish Yadav](http://www.linkedin.com/in/ashish-yadav-37a034182)
+- [Reo Correia](https://www.linkedin.com/in/reo-correia-120688193/)
+
 
 
 ## ***Lucky Strike, Happy Contributing !*** 🎃
