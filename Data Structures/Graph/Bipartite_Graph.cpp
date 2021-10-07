@@ -6,7 +6,6 @@ int is_bipartite= 1;
 
 // BFS function
 void bfs(int node, vector<int>& color, vector<int> adj[]){
-    
     queue<int> q;
     q.push(node);
     color[node]=0;
@@ -58,5 +57,4 @@ int main(){
     // If the graph is bipartite, output YES
     if(is_bipartite) cout<<"YES";
     else cout<<"NO";
-
 }
