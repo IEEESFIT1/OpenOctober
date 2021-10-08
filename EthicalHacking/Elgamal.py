@@ -20,7 +20,7 @@ def power(a,b,c):
     y=a
     while b>0:
         if b%2==0:
-            x=(x*y)%c;
+            x=(x*y)%c
         y=(y*y)%c
         b=int(b/2)
     return x%c
