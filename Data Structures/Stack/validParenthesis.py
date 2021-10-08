@@ -1,23 +1,16 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-      #hashmap- dictionary kind of datastructure to form a pair
-        hm = {")": "(", "}":"{", "]":"["}
         stack = []
+        mapping = { ")":"(", "}":"{", "]":"["}
         for i in s:
-            if i in hm:
-              #pop from the stack if the parentheses is complete
-                if stack and stack[-1] == hm[i]:
-                    stack.pop()
-                else:
+            if i in mapping:
+                top_element = stack.pop() if stack else '#'
+                if mapping[i] != top_element:
                     return False
             else:
-              #add to the stack- push- if the parantheses is new
+                # We have an opening bracket, simply push it onto the stack.
                 stack.append(i)
-        
-        #if stack is empty, then the parentheses are complete and paired.
-        if stack == []:
-            return True
-        else:
-            return False
-                
-                
+
+        # In the end, if the stack is empty, then we have a valid expression.
+        # The stack won't be empty for cases like ((()
+        return not stack
