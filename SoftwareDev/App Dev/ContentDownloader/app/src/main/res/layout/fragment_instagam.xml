@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.InstagamFragment">
+
+    <ProgressBar
+        android:id="@+id/prog_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/instagram_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paste Video URL" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_marginHorizontal="15dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/insta_download"
+            android:backgroundTint="@color/purple_500"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/insta_buttons"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_ripple"
+            android:text="Download"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/InstaPasteBtn"
+            android:backgroundTint="@color/purple_500"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_ripple"
+            android:layout_height="wrap_content"
+            style="@style/insta_buttons"
+            android:text="Paste"
+            android:layout_marginLeft="20dp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/RL1"
+        android:visibility="gone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/LL"
+        android:background="@color/white">
+
+        <VideoView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/RL2"
+        android:visibility="gone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/LL"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/thumb_nail"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

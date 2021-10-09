@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/instagamFragment"
+        android:title="Instagram"
+        android:icon="@drawable/instagram_selector"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/facebookFragment"
+        android:title="Facebook"
+        android:icon="@drawable/ic_info"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/whatsappFragment"
+        android:title="Whatsapp"
+        android:icon="@drawable/ic_notifications"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+</menu>
