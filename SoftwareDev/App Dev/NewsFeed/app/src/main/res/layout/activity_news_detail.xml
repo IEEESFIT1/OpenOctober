@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#373737"
+    tools:context=".NewsDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News Feed App"
+            android:textColor="#1357BE"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:layout_above="@+id/readNews">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/iv_news"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_title"
+                android:text="Title"
+                android:layout_below="@+id/iv_news"
+                android:textColor="#1357BE"
+                android:padding="4dp"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_subDesc"
+                android:text="Sub Description"
+                android:layout_below="@+id/tv_title"
+                android:textColor="@color/white"
+                android:padding="4dp"
+                android:layout_margin="4dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_content"
+                android:layout_below="@+id/tv_subDesc"
+                android:text="Content"
+                android:textColor="@color/white"
+                android:padding="4dp"
+                android:layout_margin="4dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readNews"
+        android:text="Read Full News"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="#1357BE"
+        />
+
+</RelativeLayout>
