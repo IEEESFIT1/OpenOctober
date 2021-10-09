@@ -71,9 +71,9 @@ void KMPsearch()
 int main()
 {
 printf("\nEnter the text: ");
- gets(txt);
+ fgets(txt);
  printf("Enter the pattern: ");
- gets(p);
+ fgets(p);
  KMPsearch();
  return 0;
 }
