@@ -1,0 +1,59 @@
+.grid {
+	height: 460px;
+	width: 460px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.grid div {
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+.playerX {
+	background-image: url("cross.jpg");
+}
+.playerO {
+	background-image: url("circle.jpg");
+}
+h3 {
+	color: blue;
+}
+
+.horizontal::before {
+	content: "";
+	position: absolute;
+	margin-top: 67px;
+	border-top: 15px solid blue;
+	width: 155px;
+	transform: rotate(0deg);
+}
+.vertical::before {
+	content: "";
+	position: absolute;
+	margin-top: 70px;
+	margin-left: -3px;
+	border-top: 15px solid blue;
+	width: 155px;
+	transform: rotate(90deg);
+}
+.right_diagonal::before {
+	content: "";
+	position: absolute;
+	border-top: 15px solid blue;
+	margin-top: 72px;
+	margin-left: -30px;
+	width: 220px;
+	transform: rotate(45deg);
+}
+.left_diagonal::before {
+	content: "";
+	position: absolute;
+	border-top: 15px solid blue;
+	margin-top: 67px;
+	margin-left: -35px;
+	width: 220px;
+	transform: rotate(135deg);
+}
