@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FacebookFragment">
+
+    <ProgressBar
+        android:id="@+id/facebook_progBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/facebook_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paste Video URL" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linear_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_marginHorizontal="15dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/fb_download"
+            android:backgroundTint="@color/purple_500"
+            android:layout_width="0dp"
+            android:background="@drawable/custom_button_ripple"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            style="@style/fb_buttons"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/FbPasteBtn"
+            android:backgroundTint="@color/purple_500"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/fb_buttons"
+            android:background="@drawable/custom_button_ripple"
+            android:text="Paste"
+            android:layout_marginLeft="20dp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/RL"
+        android:visibility="gone"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Linear_Layout"
+        android:background="@color/white">
+
+        <VideoView
+            android:id="@+id/facebook_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
