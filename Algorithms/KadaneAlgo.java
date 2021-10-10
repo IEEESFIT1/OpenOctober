@@ -1,5 +1,5 @@
 
-class Solution {
+class KadaneAlgo {
     public int maxSubArray(int[] nums) 
     {
 	    int meh = 0,msf = Integer.MIN_VALUE; 
