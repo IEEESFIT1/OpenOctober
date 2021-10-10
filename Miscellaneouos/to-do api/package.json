@@ -1,0 +1,22 @@
+{
+  "name": "to-do-app-server",
+  "version": "1.0.0",
+  "description": "A simple to-do app using Express & NodeJs",
+  "main": "server.mjs",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "to-do",
+    "express-server",
+    "nodejs"
+  ],
+  "author": "Pranav Yadav <pranavyadav3912@gmail.com>",
+  "license": "ISC"
+}
