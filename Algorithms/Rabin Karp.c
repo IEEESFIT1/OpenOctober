@@ -11,9 +11,9 @@ int main()
 char text[100],p[100];
 int q;
 printf("\n Enter the text: ");
-gets(text);
+fgets(text);
 printf("\n Enter the pattern to be searched: ");
-gets(p);
+fgets(p);
 printf("\n Enter the prime number: ");
 scanf("%d",&q);
 rabinKarp(text,p,q);
