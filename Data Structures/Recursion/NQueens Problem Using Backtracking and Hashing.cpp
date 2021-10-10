@@ -24,7 +24,6 @@ bool NQueens(int col, int n, vector< vector<int> > &matrix, vector<int> &left_ro
 	
 	//checking placement of Queen in each 'row' of a column
 	for(int row=0;row<n;row++){
-		
 		//if the above placement of queen is safe
 		if(isSafe(n, row, col, left_rowHash, bottom_leftHash, top_leftHash)){
 			//assuming the Queen's position
@@ -48,7 +47,6 @@ bool NQueens(int col, int n, vector< vector<int> > &matrix, vector<int> &left_ro
 			bottom_leftHash[row+col]=0;
 			top_leftHash[n-1 + row-col]=0;
 		}
-		
 	}
 	
 	return false;
