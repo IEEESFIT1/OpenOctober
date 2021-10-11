@@ -1,0 +1,30 @@
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #008000;
+	background-image: url("asset/empty.png");
+	background-size: 200px 200px;
+	
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+	
+}
+
+.mole {
+	background-image: url("asset/mole.jpg");
+	background-size: cover;
+}
+
+body{
+	max-width: 500px;
+    margin: auto;
+	padding: 50px 20px 20px 20px;
+	background-image: url("asset/farm.jpg");
+	background-size: 1000px 1000px;
+}
