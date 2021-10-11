@@ -7,7 +7,7 @@ Output: 2
 Explanation: There are 2 triplets: 
 1 + 2 = 3 and 3 +2 = 5 
 */
-class Solution {
+class CountTriplets {
     int countTriplet(int arr[], int n) {
         Arrays.sort(arr);
         int i,j,k,count=0;
