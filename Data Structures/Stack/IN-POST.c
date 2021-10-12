@@ -14,7 +14,7 @@ void main() {
     char infix[100], postfix[100];
     clrscr();
     printf("\n Enter the infix expression : ");
-    gets(infix);
+    fgets(infix);
     InfixtoPostfix(infix, postfix);
     printf("\n The corresponding postfix expression is : ");
     puts(postfix);
