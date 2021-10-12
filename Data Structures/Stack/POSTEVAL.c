@@ -18,7 +18,7 @@ int main() {
     int len = 0;
     clrscr();
     printf("\nEnter the postfix expression: ");
-    gets(postfix);
+    fgets(postfix);
     printf("\nThe postfix expression is: %s", postfix);
     ans = evaluate(postfix);
     printf("\nAnswer after evaluation = %0.2f", ans);
