@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
+
 class CatalogModel {
   static List<Item> items;
   //To get an item from it's ID
@@ -10,6 +12,7 @@ class CatalogModel {
   Item getByPosition(int pos) => items[pos];
 }
 
+@immutable
 class Item {
   final int id;
   final String name;
