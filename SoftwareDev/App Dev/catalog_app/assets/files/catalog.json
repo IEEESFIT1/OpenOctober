@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Google Pixel 4a",
+            "descriptn": "Google Pixel phone from the 4th Generation",
+            "price": 29999,
+            "color": "#000000",
+            "image": "https://cdn.shopify.com/s/files/1/1684/4603/products/GooglePixel3A_JustBlack.png?v=1610007560"
+        },
+        {
+            "id": 2,
+            "name": "Google Pixel 4 XL",
+            "descriptn": "Google Pixel phone from the 4th Generation",
+            "price": 79990,
+            "color": "#ff7f50",
+            "image": "https://freebiescloud.com/wp-content/uploads/2020/10/3-43.png"
+        },
+        {
+            "id": 3,
+            "name": "Google Pixel 3 XL",
+            "descriptn": "Google Pixel phone from the 3rd Generation",
+            "price": 59990,
+            "color": "#ffffff",
+            "image": "https://cdn.pulse2.com/cdn/2019/07/Google-Pixel-31.png"
+        },
+        {
+            "id": 4,
+            "name": "Google Pixel 5",
+            "descriptn": "Google Pixel phone from the 5th Generation",
+            "price": 67250,
+            "color": "#c1fdc1",
+            "image": "https://lh3.googleusercontent.com/1rGygypuUJbOrWBP3ZozcBUUOTvRrxRIcaZ3B_MFOTdW6ForENs0gbLmqZhPKK3ivDyUp0xkTs4Zx86dWdZEflUzfS8LtO-BeocYgRONgyTQZBlqhdxughOKXQ=s800-c"
+        },
+        {
+            "id": 5,
+            "name": "Google Nest Mini",
+            "descriptn": "Google Nest Mini is a smart speaker from Google",
+            "price": 4499,
+            "color": "#000000",
+            "image": "https://media.croma.com/image/upload/v1605134387/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/8944834707486.png"
+        },
+        {
+            "id": 6,
+            "name": "Google Home",
+            "descriptn": "Google Home is a smart speaker from Google",
+            "price": 8999,
+            "color": "#000000",
+            "image": "https://stratisiot.com/wp-content/uploads/2020/06/googlehome.png"
+        }
+    ]
+}

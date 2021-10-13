@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginTop="290dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:lottie_rawRes="@raw/no_connection"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/animation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#F0E68C"
+        android:text="Retry"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#565656"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_news"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_newsHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_news"
+            android:textColor="#fff"
+            android:text="News Headline"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:maxLines="2"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/tv_newsSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_newsHeadline"
+            android:text="Sub Heading"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:maxLines="3"
+            android:padding="3dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/tv_publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_newsSubtitle"
+            android:text="Published At : "
+            android:textColor="@color/white"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:textSize="13dp"
+            android:maxLength="36"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

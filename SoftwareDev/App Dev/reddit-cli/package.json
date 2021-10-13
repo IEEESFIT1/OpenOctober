@@ -1,0 +1,20 @@
+{
+  "name": "@pranavpy/reddit-cli",
+  "version": "1.0.0",
+  "description": "Reddit CLI - A Command Line Interface for Reddit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "keywords": ["cli", "reddit-cli"],
+  "author": "Pranav Yadav <pranavyadav3912@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "open": "^8.3.0",
+    "yargs": "^17.2.1"
+  }
+}
