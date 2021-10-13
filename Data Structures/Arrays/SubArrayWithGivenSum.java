@@ -1,7 +1,7 @@
 /* Given an unsorted array A of size N that contains only non-negative integers, find a continuous sub-array which adds to a given number S.*/
  /* Brute force method*/
 
-class Solution
+class SubArrayWithGivenSum.
 {
     //Function to find a continuous sub-array which adds up to a given number.
     static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
