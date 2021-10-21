@@ -95,8 +95,7 @@ int constructSTUtil(int arr[], int ss, int se, int *st, int si) {
 /* Function to construct segment tree from given array. This function  
 allocates memory for segment tree and calls constructSTUtil() to  
 fill the allocated memory */
-int *constructST(int arr[], int n){
-    
+int *constructST(int arr[], int n){ 
     //Height of segment tree
     int x = (int)(ceil(log2(n)));
 
