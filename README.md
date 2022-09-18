@@ -95,7 +95,7 @@ i.e C, C++, Java, Python and R
 
 ### Maintainers
 - [Orvil Dsilva](https://www.linkedin.com/in/orvil-d-silva-469a331b4)
-- [Reo Correia](https://www.linkedin.com/in/reo-correia-120688193/)
+- [Reo  Correia](https://www.linkedin.com/in/reo-correia-120688193/)
 
 
 
