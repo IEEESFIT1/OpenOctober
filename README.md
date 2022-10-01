@@ -1,4 +1,4 @@
-# **ISSB Open October '21** 
+# **ISSB Open October '22** 
 >  🔮🎃 TRICK OR TREAT 🎃🔮 
 
 
@@ -16,7 +16,7 @@ In this event, you can contribute to a live project and make a pull request to t
 
 ### The participant with the maximum number of valid contributions wins.
 
-This competition will go on for a week but don't be disheartened, you can keep contributing after the time is over but it will not be considered for evaluation.
+This competition will go on for 3 days but don't be disheartened, you can keep contributing after the time is over but it will not be considered for evaluation.
 
 
 > We believe - and we hope you do too 
@@ -24,12 +24,12 @@ This competition will go on for a week but don't be disheartened, you can keep c
 >>> If you are first time contributor,  we want you to know that everyone started from somewhere! 
 >>>> So start here!⚡
   
-## It is a week long coding event on github which implies <b> open source principles at its base.</b></p>
-> The event will be held from ***7th to 13th October 2021***</b><br>
+## It is a 3 day coding event on github which implies <b> open source principles at its base.</b></p>
+> The event will be held from ***6th to 8th October 2022***</b><br>
 
 ### Register [Here](https://forms.gle/ahgDZn947UV4yTk78) and Join our [Discord Channel](https://discord.gg/J86hCjMj6h).
 
-### Also Register with [Hactoberfest](https://hacktoberfest.digitalocean.com/)
+### Also Register with [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 ## Overview 😯
 
 OpenOctober is open to everyone whether you're new to development , a student or a long time contributer.
@@ -95,7 +95,8 @@ i.e C, C++, Java, Python and R
 
 ### Maintainers
 - [Orvil Dsilva](https://www.linkedin.com/in/orvil-d-silva-469a331b4)
-- [Reo  Correia](https://www.linkedin.com/in/reo-correia-120688193/)
+- [Reo Correia](https://www.linkedin.com/in/reo-correia-120688193/)
+- [Ashlyn Dsilva](https://www.linkedin.com/in/ashlyn-dsilva-690a9a247/)
 
 
 
