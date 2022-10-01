@@ -27,6 +27,7 @@
 * Contribute by fair means.
 * Push the repo and then create a pull request.
 * Each PR must be associated with only *ONE* issue.
+* Name the files properly.
 
 ### DONT'S ❌
 * Restrict from spaming
